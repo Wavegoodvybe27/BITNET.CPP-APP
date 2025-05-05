@@ -1,0 +1,77 @@
+/* Custom styles for BitNet.cpp App */
+
+.chat-container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.message {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #d1ecf1;
+    margin-left: auto;
+    text-align: right;
+}
+
+.assistant-message {
+    background-color: #e2e3e5;
+    margin-right: auto;
+}
+
+.system-message {
+    background-color: #fff3cd;
+    margin-right: auto;
+    font-style: italic;
+}
+
+#model-details {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+}
+
+.loading {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-top-color: #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.status-available {
+    background-color: #28a745;
+}
+
+.status-downloading {
+    background-color: #ffc107;
+}
+
+.status-error {
+    background-color: #dc3545;
+}
