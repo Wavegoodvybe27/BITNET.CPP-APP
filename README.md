@@ -1,5 +1,8 @@
 # BitNet.cpp App
 
+![Screenshot 2025-05-05 154020](https://github.com/user-attachments/assets/c4548a5e-5b1d-4924-aede-f46e2617021d)
+
+
 A desktop application for downloading, managing, and running BitNet models locally on CPU, similar to Ollama but specifically for BitNet.cpp models. This application runs entirely locally and performs all inference on your CPU without requiring any cloud services or GPU acceleration.
 
 ## Features
